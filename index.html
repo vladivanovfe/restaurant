@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>starter</title>
+    <title>Restaurant</title>
+
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700,700i|Poppins:400,500,600|Sacramento|Source+Sans+Pro:600,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/app.css">
@@ -13,30 +20,153 @@
 </head>
 <body>
 
-    <header class="ba-header">
+    <section class="ba-banner">
         <div class="container">
 
-            <a href="#" class="ba-logo"></a>
+            <header class="ba-header">
+        
+                <span class="ba-header__link">
+                    Wellcome To <a href="#">restaurantBD.com</a>
+                </span>
 
-            <nav>
-                <ul class="ba-menu">
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item 1</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item 2</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item 3</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item 4</a>
-                    </li>
-                </ul>
-            </nav>
+                <div class="ba-header-search">
+                    <input type="search" id="search" placeholder="Quick Search">
+                    <button class="ba-search__btn"><i class="icon ion-md-search"></i></button>
+                </div>
+
+                <button class="ba-header__login">
+                    <i class="icon ion-md-exit"></i>
+                    Login
+                </button>
+
+                <span class="ba-header__contact">
+                    For Delivary : 687 457 6587-90
+                </span>
+
+            </header>
+
+            <div class="ba-nav">
+                <div class="container">
+                    <div class="ba-nav-wrapper">
+
+                        <a href="#" class="ba-logo">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                
+                        <nav>
+                            <ul class="ba-menu">
+                                <li class="ba-menu__item">
+                                    <a href="#" class="ba-menu__link">Home</a>
+                                </li>
+                                <li class="ba-menu__item">
+                                    <a href="#" class="ba-menu__link">About</a>
+                                </li>
+                                <li class="ba-menu__item">
+                                    <a href="#" class="ba-menu__link">Page</a>
+                                </li>
+                                <li class="ba-menu__item">
+                                    <a href="#" class="ba-menu__link">Menu</a>
+                                </li>
+                                <li class="ba-menu__item">
+                                    <a href="#" class="ba-menu__link">Gallery</a>
+                                </li>
+                                <li class="ba-menu__item">
+                                    <a href="#" class="ba-menu__link">Blog</a>
+                                </li>
+                                <li class="ba-menu__item">
+                                    <a href="#" class="ba-menu__link">Shops</a>
+                                </li>
+                                <li class="ba-menu__item">
+                                    <a href="#" class="ba-menu__link">Contact</a>
+                                </li>
+
+                                <button class="ba-menu__cart">
+                                    <i class="icon ion-md-cart"></i>
+                                </button>
+        
+                                <button class="ba-menu__btn">
+                                    Reservation
+                                </button>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="ba-slider">
+
+                <div class="ba-slide">
+                    <h2 class="ba-banner__info">
+                        RestaurantBD is the name of pure food
+                    </h2>
+                    <h1 class="ba-banner__title">
+                        We Provide 100% Pure & Healthy Food
+                    </h1>
+                    <p class="ba-banner__text">
+                        When an unknown printer took a galley of type and scrambled it to make a type specimen book. It<br>
+                        has survived not only five centuries, but also the leap into electronic typesetting, remaining<br>
+                        essentially unchanged. It was popularised in the 1960s.
+                    </p>
+    
+                    <div class="ba-banner__buttons">
+                        <button class="ba-banner__btn">
+                            About Us
+                        </button>
+                        <button class="ba-banner__btn btn-red">
+                            See Menu
+                        </button>
+                    </div>
+                </div>
+                <div class="ba-slide">
+                    <h2 class="ba-banner__info">
+                        RestaurantBD is the name of pure food
+                    </h2>
+                    <h1 class="ba-banner__title">
+                        We Provide 100% Pure & Healthy Food
+                    </h1>
+                    <p class="ba-banner__text">
+                        When an unknown printer took a galley of type and scrambled it to make a type specimen book. It<br>
+                        has survived not only five centuries, but also the leap into electronic typesetting, remaining<br>
+                        essentially unchanged. It was popularised in the 1960s.
+                    </p>
+    
+                    <div class="ba-banner__buttons">
+                        <button class="ba-banner__btn">
+                            About Us
+                        </button>
+                        <button class="ba-banner__btn btn-red">
+                            See Menu
+                        </button>
+                    </div>
+                </div>
+                <div class="ba-slide">
+                    <h2 class="ba-banner__info">
+                        RestaurantBD is the name of pure food
+                    </h2>
+                    <h1 class="ba-banner__title">
+                        We Provide 100% Pure & Healthy Food
+                    </h1>
+                    <p class="ba-banner__text">
+                        When an unknown printer took a galley of type and scrambled it to make a type specimen book. It<br>
+                        has survived not only five centuries, but also the leap into electronic typesetting, remaining<br>
+                        essentially unchanged. It was popularised in the 1960s.
+                    </p>
+    
+                    <div class="ba-banner__buttons">
+                        <button class="ba-banner__btn">
+                            About Us
+                        </button>
+                        <button class="ba-banner__btn btn-red">
+                            See Menu
+                        </button>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
-    </header>
+    </section>
 
     <main>
         <section class="ba-section">
@@ -49,6 +179,13 @@
     <footer class="ba-footer">
         <div class="container"></div>
     </footer>
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 </html> 
