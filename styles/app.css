@@ -75,14 +75,9 @@ a {
   color: inherit;
   text-decoration: none; }
 
-.ba-menu {
-  display: flex;
-  align-items: center;
-  list-style: none; }
-
 .ba-banner {
   position: relative;
-  height: 100vh;
+  height: 930px;
   background-image: url(../img/bg-dark.png), url(../img/hero.jpg);
   background-size: cover; }
 
@@ -97,7 +92,6 @@ a {
 
 .ba-header__link {
   font-family: 'Poppins', sans-serif;
-  font-font-weight: 400;
   font-size: .875rem;
   line-height: 15px;
   color: #fff;
@@ -147,7 +141,6 @@ a {
 
 .ba-header__login {
   font-family: 'Poppins', sans-serif;
-  font-font-weight: 400;
   font-size: .875rem;
   line-height: 15px;
   color: #fff;
@@ -162,7 +155,6 @@ a {
 
 .ba-header__contact {
   font-family: 'Poppins', sans-serif;
-  font-font-weight: 400;
   font-size: .875rem;
   line-height: 15px;
   color: #fff;
@@ -191,11 +183,11 @@ a {
 .ba-menu {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  list-style: none; }
 
 .ba-menu__link {
   font-family: 'Source Sans Pro', sans-serif;
-  font-font-weight: 700;
   font-size: .875rem;
   line-height: 15px;
   color: #000;
@@ -211,7 +203,6 @@ a {
 
 .ba-menu__btn {
   font-family: 'Source Sans Pro', sans-serif;
-  font-font-weight: 700;
   font-size: .875rem;
   line-height: 15px;
   color: #fff;
@@ -232,17 +223,15 @@ a {
 
 .ba-banner__info {
   font-family: 'Sacramento', cursive;
-  font-font-weight: 400;
   font-size: 2.25rem;
   line-height: 15px;
   color: #00c5d2;
   text-align: center;
-  margin-top: 130px;
+  margin-top: 230px;
   margin-bottom: 45px; }
 
 .ba-banner__title {
   font-family: 'Lobster Two', cursive;
-  font-font-weight: 700;
   font-size: 3rem;
   line-height: 15px;
   color: #fff;
@@ -251,7 +240,6 @@ a {
 
 .ba-banner__text {
   font-family: 'Poppins', sans-serif;
-  font-font-weight: 500;
   font-size: 1rem;
   line-height: 28px;
   color: #fff;
@@ -264,7 +252,6 @@ a {
 
 .ba-banner__btn {
   font-family: 'Poppins', sans-serif;
-  font-font-weight: 500;
   font-size: 1rem;
   line-height: 15px;
   color: #fff;
@@ -284,13 +271,13 @@ a {
   margin-right: 0;
   margin-left: 22.5px; }
 
-.ba-slider {
+.ba-banner-slider {
   margin-top: 85px; }
 
 .slick-dots {
   position: relative;
   bottom: 0;
-  top: 100px; }
+  top: 190px; }
 
 .slick-dots li {
   margin: 0; }
@@ -300,3 +287,299 @@ a {
 
 .slick-dots li.slick-active button:before {
   content: url(../img/dot-active.png); }
+
+.ba-welcome {
+  padding-top: 135px; }
+
+.ba-welcome__title {
+  font-family: 'Lobster Two', cursive;
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 38px;
+  color: #ff3a2d;
+  margin-bottom: 0;
+  letter-spacing: .15em; }
+
+.ba-welcome__info {
+  font-family: 'Lobster Two', cursive;
+  font-style: italic;
+  font-size: 1.25rem;
+  line-height: 38px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: .15em; }
+
+.ba-section__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: .875rem;
+  line-height: 28px;
+  color: #808080;
+  margin-bottom: 45px; }
+
+.ba-welcome__founder {
+  font-family: 'Sacramento', cursive;
+  font-size: 1.5rem;
+  line-height: 25px;
+  color: #000;
+  display: inline-block;
+  margin-top: 0; }
+
+.ba-welcome__founder span {
+  font-size: 1.125rem;
+  display: block;
+  text-align: center; }
+
+.ba-section__info {
+  font-family: 'Sacramento', cursive;
+  font-size: 2.25rem;
+  line-height: 54px;
+  color: #ff3a2d;
+  text-align: center;
+  margin: 0; }
+
+.ba-section__title {
+  font-family: 'Lobster Two', cursive;
+  font-size: 2.25rem;
+  line-height: 54px;
+  color: #000;
+  text-align: center;
+  margin: 0; }
+
+.ba-section__arrow {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 70px; }
+
+.ba-feature-slide {
+  width: 270px;
+  margin: 0 15px; }
+
+.ba-feature-card__title {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.5rem;
+  line-height: 44px;
+  color: #000;
+  text-align: center;
+  margin: 0; }
+
+.ba-feature-card__price {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.5rem;
+  line-height: 44px;
+  color: #000;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.ba-feature-card__price span {
+  font-size: 1rem;
+  text-decoration: line-through;
+  margin-left: 10px; }
+
+.ba-about {
+  padding-top: 210px; }
+
+.ba-about .ba-section__info,
+.ba-about .ba-section__title {
+  text-align: left; }
+
+.ba-delivary {
+  padding-top: 190px;
+  padding-bottom: 200px;
+  background-image: url(../img/bg-dark.png), url(../img/delivary-bg.jpg);
+  background-size: cover; }
+
+.ba-delivary .ba-section__title {
+  color: #fff; }
+
+.ba-delivary-card {
+  position: relative;
+  width: 355px;
+  height: 255px;
+  background-color: #fff;
+  text-align: center;
+  padding: 75px 30px;
+  margin-top: 115px; }
+
+.ba-delivary__title {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.75rem;
+  line-height: 49px;
+  color: #ff3a2d; }
+
+.ba-delivary__text {
+  font-family: 'Poppins', sans-serif;
+  font-size: .875rem;
+  line-height: 28px;
+  color: #808080; }
+
+.ba-delivary__logo {
+  position: absolute;
+  top: -15%;
+  left: 35%;
+  width: 100px;
+  height: 80px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: #fff;
+  padding-top: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
+
+.ba-dish {
+  padding-top: 180px;
+  padding-bottom: 200px; }
+
+.ba-dish-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0 240px; }
+
+.ba-dish-menu .items-navi + .ba-dish-menu .items-navi {
+  margin-left: 50px; }
+
+.ba-dish-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 80px; }
+
+.ba-dish-item {
+  position: relative;
+  width: calc(50% - 44px);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px; }
+
+.ba-dish-item:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  left: 250px;
+  right: 70px;
+  top: 15px;
+  background-color: gray; }
+
+.ba-dish-item:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  left: 265px;
+  right: 70px;
+  top: 15px;
+  background-color: gray; }
+
+.ba-dish-item:nth-child(3)::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  left: 235px;
+  right: 70px;
+  top: 15px;
+  background-color: gray; }
+
+.ba-dish-item:nth-child(4)::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  left: 230px;
+  right: 70px;
+  top: 15px;
+  background-color: gray; }
+
+.ba-dish-item:nth-child(5)::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  left: 245px;
+  right: 70px;
+  top: 15px;
+  background-color: gray; }
+
+.ba-dish-item:nth-child(6)::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  left: 275px;
+  right: 70px;
+  top: 15px;
+  background-color: gray; }
+
+.ba-dish-item:nth-child(7)::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  left: 265px;
+  right: 70px;
+  top: 15px;
+  background-color: gray; }
+
+.ba-dish-item:nth-child(8)::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  left: 220px;
+  right: 70px;
+  top: 15px;
+  background-color: gray; }
+
+.ba-dish-item:nth-child(9)::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  left: 220px;
+  right: 70px;
+  top: 15px;
+  background-color: gray; }
+
+.ba-dish-item:nth-child(10)::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  left: 250px;
+  right: 70px;
+  top: 15px;
+  background-color: gray; }
+
+.ba-dish-item__info {
+  position: relative;
+  width: 75%; }
+
+.ba-dish-item__title {
+  position: absolute;
+  top: 5px;
+  left: 120px;
+  margin-top: 0; }
+
+.ba-dish-item__desc {
+  position: absolute;
+  top: 35px;
+  left: 120px;
+  margin-top: 0; }
+
+.ba-dish-item__price {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #555555;
+  letter-spacing: .05em; }
+
+.ba-dish__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 200px; }
+
+.ba-feedback {
+  height: 450px;
+  background-image: url(../img/bg-light.png), url(../img/feedback-hero.jpg);
+  background-size: cover;
+  padding-top: 75px;
+  padding-bottom: 190px; }
