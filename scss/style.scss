@@ -277,7 +277,6 @@ a {
 .ba-welcome {
 	position: relative;
 	padding-top: 135px;
-	// padding-bottom: 75px;
 }
 
 .ba-welcome__tree {
@@ -856,6 +855,14 @@ a {
 
 .ba-stuff-slider {
 	z-index: 10;
+}
+
+.ba-stuff-slider .slick-prev:before {
+	content: url(../img/blog-arrow-left.png);
+}
+
+.ba-stuff-slider .slick-next::before {
+	content: url(../img/blog-arrow-right.png);
 }
 
 // ba-subscribe START

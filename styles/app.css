@@ -749,6 +749,12 @@ a {
 .ba-stuff-slider {
   z-index: 10; }
 
+.ba-stuff-slider .slick-prev:before {
+  content: url(../img/blog-arrow-left.png); }
+
+.ba-stuff-slider .slick-next::before {
+  content: url(../img/blog-arrow-right.png); }
+
 .ba-subscribe {
   background-image: url(../img/bg-dark.png), url(../img/subscribe-hero.jpg);
   background-size: cover;

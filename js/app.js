@@ -11,7 +11,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         variableWidth: true,
         autoplay: true,
-        autoplaySpeed: 500
+        autoplaySpeed: 1000
     });
 
     $('.ba-blog-slider').slick({
@@ -19,8 +19,8 @@ $(document).ready(function(){
         arrows: true,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 500
+        // autoplay: true,
+        // autoplaySpeed: 500
     });
 
     $('.ba-stuff-slider').slick({
@@ -29,7 +29,7 @@ $(document).ready(function(){
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 500
+        autoplaySpeed: 1000
     });
 
     $('.ba-about__btn').on('click', function() {
