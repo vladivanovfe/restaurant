@@ -7,10 +7,34 @@ $(document).ready(function(){
     $('.ba-feature-slider').slick({
         dots: false,
         arrows: true,
-        slidesToShow: 6,
+        slidesToShow: 5,
         slidesToScroll: 1,
         variableWidth: true,
         autoplay: true,
         autoplaySpeed: 500
     });
+
+    $('.ba-blog-slider').slick({
+        dots: false,
+        arrows: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 500
+    });
+
+    $('.ba-stuff-slider').slick({
+        dots: false,
+        arrows: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 500
+    });
+
+    $('.ba-about__btn').on('click', function() {
+        
+        $(this).parent().toggleClass('active');
+    });
+
 })
